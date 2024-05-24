@@ -40,6 +40,8 @@
 |gitea|Débutant|
 |minio|Débutant|
 
+***
+
 ## Nevrax - Développeur Zope - 2006/01 à 2007/01
 
 Nevrax était éditeur/développeur du MMORPG Ryzom
@@ -111,6 +113,8 @@ Participation à la conception de nouveau élément du jeu Saga of ryzom
   * debug
 * Stack technique
   * Brainstorming
+
+***
 
 ## Aday, Administrateur système, 2008/10 à 2021/11
 
@@ -272,6 +276,8 @@ Mise en place d'outils de communications interne, les équipes étant dispatcher
   * Téléphonie : wazo
   * SQL : Opération de routine sur PostgreSQL (+tail_n_mail), Mysql/MariaDB, SQLite et Oracle 8
 
+***
+
 ## SJT - Formateur - 2023/10 à 2023/11
 
 Solidarités et Jalons pour le Travail est une association d'accompagnement à la réinsertion de jeunes et d’adulte
@@ -291,6 +297,8 @@ Solidarités et Jalons pour le Travail est une association d'accompagnement à l
   * Connaissance globale en informatique
   * Démonstration de bruteforce John the ripper, openSSL
   * ChatGPT
+
+***
 
 ## OC3 - Ingénieur Linux - 2024/03 à 2024/05
 
