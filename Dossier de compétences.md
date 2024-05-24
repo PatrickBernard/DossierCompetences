@@ -5,8 +5,8 @@
 ### Savoir faire
 
 |Compétences|Niveaux (Débutant-Confirmé-Expert [10 ans min])|
-|-----------|-----------------------------------------------|
-|Administration système Linux | Expert|
+|---|---:|
+|Administration système Linux|Expert|
 |Hyperconvergence, Conteneurs|Expert|
 |Maintien en condition opérationnel|Expert|
 |Maintien en condition de sécurité|Expert|
@@ -22,7 +22,7 @@
 ## OUTILS
 
 |Nom | Niveaux (Débutant-Confirmé-Expert [10 ans min])|
-|----|---|
+|---|---:|
 |Linux (Debian)|Expert|
 |LXC|Expert|
 |Bash|Confirmé|
