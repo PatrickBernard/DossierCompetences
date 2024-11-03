@@ -255,6 +255,15 @@ Création et ajout des sous titres dans le moteur de recherche pour la quasi tot
   * hobbit/xymon, smokeping, bash, zabbix, …
   * elk (elasticsearch, logstash, kibana)
 
+### Gestion Téléphonie VoIP
+
+* Objectifs
+  * Configuration automatique des téléphones
+  * Attribution des numéros pour chaque utilisateurs
+  * Gestion des groupes
+* Stack Technique
+  * Wazo
+
 ### Outils Communications
 
 Mise en place d'outils de communications interne, les équipes étant dispatcher aux 4 coins de la France
