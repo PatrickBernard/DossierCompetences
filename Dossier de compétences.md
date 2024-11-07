@@ -187,7 +187,7 @@ Infrastructure de déploiement des applications permettant le rollback sans coup
   * virtualisation : KVM, vmware ESXi
   * Proxmox : LXC, KVM
 
-### Infrastructure Veille Audiovisuel
+### Infrastructure Veille Audiovisuel (IA/LLM)
 
 * Objectifs
 
@@ -208,7 +208,7 @@ Création et ajout des sous titres dans le moteur de recherche pour la quasi tot
   * Stockage asynchrone (lsyncd,rsync)
   * Machine d'apprentissage IA (cuda)
 
-### Infrastructures Sauvegardes
+### Infrastructures Sauvegardes document presse
 
 * Objectifs
   * Archivage froid (pas/peu d'accès) pour le retraitement éventuel de l'historique des documents
@@ -263,6 +263,15 @@ Création et ajout des sous titres dans le moteur de recherche pour la quasi tot
   * Gestion des groupes
 * Stack Technique
   * Wazo
+
+### Backup windows server
+
+* Objectifs
+  * Réinstaller rapidement les plateformes windows server
+* Stack Technique
+  * Clonezilla (2008-2018)
+  * VMware (2018-2020)
+  * Proxmox (2020)
 
 ### Outils Communications
 
