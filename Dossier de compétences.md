@@ -1,4 +1,4 @@
-﻿# Ingénieur Linux, devops depuis 2008
+﻿# Ingénieur Linux, Adminsys, SRE, DevOps
 
 ## Patrick Bernard - 18/11/1980
 
