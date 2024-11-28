@@ -118,10 +118,10 @@ Participation à la conception de nouveau élément du jeu Saga of ryzom
 
 ## Aday, Administrateur système, 2008/10 à 2021/11
 
-Aday est une entreprise d’archivage et panorama de presse
-Au sein de l'équipe exploitation, en charge de la gestion matériel et logiciel des Datacenters, de la mise en place du CI/CD, de la haute disponibilité, des différents plan de sécurité et du monitoring
-Mise en place d'une architecture presque entièrement virtualisé dès 2009
-Gestion des bases de données, et des clusters de calculs
+Aday est une entreprise d’archivage et panorama de presse.
+Au sein de l'équipe exploitation, en charge de la gestion matériel et logiciel des Datacenters, de la mise en place du CI/CD, de la haute disponibilité, des différents plan de sécurité et du monitoring.
+Mise en place d'une architecture presque entièrement virtualisé dès 2009.
+Gestion des bases de données, et des clusters de calculs.
 
 ### Automatisation de l'installation des serveurs
 
