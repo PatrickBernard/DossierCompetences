@@ -295,10 +295,10 @@ Mise en place d'outils de communications internes, les équipes étant répartie
 
 ### Etude de stockage distribués
 
-Pour le projet de Veille audiovisuel plusieurs technologie de stockages ont été évalué
+Pour le projet de Veille audiovisuel plusieurs technologie de stockages ont été évalué.
 
 * Objectifs
-  * Permettre un flux de récéption continue même en cas de panne d'un datacenter
+  * Permettre un flux de réception continue même en cas de panne d'un datacenter.
   * Permettre à de multiples clients d'acceder au stockage.
 
 * Technologie évaluer
@@ -311,12 +311,12 @@ Pour le projet de Veille audiovisuel plusieurs technologie de stockages ont ét�
 * Résultat
 Les solutions testés sont toute robustes avec des performances similaire pour notre usage.
 Ceph est la plus onéreuse car requiert un réseaux distinct pour des performances optimal.
-Nous avons choisis GlusterFS pour des raisons de simplicité des retours arrières.
-GlusterFS s'ajoutant à un système de fichiers déjà éxistant il suffit de le désactiver en cas de problème.
+Nous avons choisi GlusterFS pour des raisons de simplicité des retours arrières.
+GlusterFS s'ajoutant à un système de fichiers déjà existant, il suffit de le désactiver en cas de problème.
 
 ### Etude de passage en cloud publique
 
-Pour le projet de veille audiovisuel il a été envidager d'exporter les serveurs de calculs sur un cloud publique
+Pour le projet de veille audiovisuel il a été envisagé d'exporté les serveurs de calculs sur un cloud publique
 
 * Objectifs
   * Benchmarker le cloud publique
