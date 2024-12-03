@@ -44,14 +44,14 @@
 
 ## Nevrax - Développeur Zope - 2006/01 à 2007/01
 
-Nevrax était éditeur/développeur du MMORPG Ryzom. En charge de la création des sites, de la gestion des serveurs web communautaires, du management et de la formation de l'équipe de développeurs Python/Zope et de la création des outils en lien avec les équipes marketing, QA et lore du jeu Ryzom.
+Nevrax était éditeur/développeur du MMORPG Ryzom. En charge de la création des sites, de la gestion des serveurs web communautaires, du gestion et de la formation de l'équipe de développeurs Python/Zope et de la création des outils en lien avec les équipes marketing, QA et lore du jeu Ryzom.
 
 ### Ryzom Ring
 
 Le Ryzom Ring était un projet d'extension pour permettre aux game designers, puis aux joueurs, d'éditer de nouvelles zones pour le MMO Saga Of Ryzom. Malgré une alpha concluante, le projet n'a jamais été déployé une fois Nevrax racheté.
 
 * Objectifs
-  * Création du site mettant en lien les créations des joueurs sur le Ryzom Ring et l'extérieur
+  * Création du site mettant en lien les créations des joueurs sur le Ryzom Ring et les plateformes externes.
   * Gestion d'équipe de joueurs (MJ, invitations, etc.)
   * Débogage du Ryzom Ring
 * Stack technique
@@ -293,6 +293,45 @@ Mise en place d'outils de communications internes, les équipes étant répartie
   * Téléphonie : Wazo
   * SQL : Opérations de routine sur PostgreSQL (+tail_n_mail), MySQL/MariaDB, SQLite et Oracle 8
 
+### Etude de stockage distribués
+
+Pour le projet de Veille audiovisuel plusieurs technologie de stockages ont été évalué
+
+* Objectifs
+  * Permettre un flux de récéption continue même en cas de panne d'un datacenter
+  * Permettre à de multiples clients d'acceder au stockage.
+
+* Technologie évaluer
+  * GlusterFS
+  * Ceph
+  * Minio (S3)
+  * Bench
+  * Cassage de l'infra, et observer le temps de reconstruction
+
+* Résultat
+Les solutions testés sont toute robustes avec des performances similaire pour notre usage.
+Ceph est la plus onéreuse car requiert un réseaux distinct pour des performances optimal.
+Nous avons choisis GlusterFS pour des raisons de simplicité des retours arrières.
+GlusterFS s'ajoutant à un système de fichiers déjà éxistant il suffit de le désactiver en cas de problème.
+
+### Etude de passage en cloud publique
+
+Pour le projet de veille audiovisuel il a été envidager d'exporter les serveurs de calculs sur un cloud publique
+
+* Objectifs
+  * Benchmarker le cloud publique
+  * Comparaison des couts versus nos solution traditionnel bare-metal
+
+* Stack technique
+  * déploiement des applications speech2text sur la plateforme cloud d'essai
+  * Bench
+  * Feuille de calculs pour exprimé les résultats
+
+* Résultats
+
+Sur un an, le cloud revient au même prix que l'achat physique des serveurs.
+Or les serveurs physiques dure bien plus qu'un ans.
+
 --------------------------------------------------------------------------------
 
 ## SJT - Formateur - 2023/10 à 2023/11
@@ -314,7 +353,7 @@ Solidarités et Jalons pour le Travail est une association d'accompagnement à l
 * Stack technique
   * Rédaction de documentation
   * Connaissance globale en informatique
-  * Démonstration de l'outil de bruteforce John the Ripper, OpenSSL
+  * Démonstration d'une attaque par force brute avec l'outil de John the Ripper, OpenSSL
   * ChatGPT
 
 --------------------------------------------------------------------------------
