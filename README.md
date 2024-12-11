@@ -99,7 +99,6 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 
 ### Automatisation de l'installation des serveurs
 
-* Objectifs
 Installation semi-automatiser des serveurs à distance selon le type d'usage.
 
 * Mise en œuvre
