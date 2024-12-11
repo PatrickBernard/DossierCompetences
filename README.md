@@ -37,79 +37,57 @@
 | Keepalived | Confirmé |
 | GitLab | Confirmé |
 | Docker | Débutant |
-| Gitea | Débutant |
 | Minio | Débutant |
 
 --------------------------------------------------------------------------------
 
-## Nevrax - Développeur Zope - 2006/01 à 2007/01
+### OC3 - Ingénieur Linux - 2024/03 à 2024/05
 
-Nevrax était éditeur/développeur du MMORPG Ryzom. En charge de la création des sites, de la gestion des serveurs web communautaires, du gestion et de la formation de l'équipe de développeurs Python/Zope et de la création des outils en lien avec les équipes marketing, QA et lore du jeu Ryzom.
+OC3 est un hébergeur, proposant d’héberger des infrastructures complètes de ses clients, l'infrastructure étant répartie sur 3 datacenters.
 
-### Ryzom Ring
-
-Le Ryzom Ring était un projet d'extension pour permettre aux game designers, puis aux joueurs, d'éditer de nouvelles zones pour le MMO Saga Of Ryzom. Malgré une alpha concluante, le projet n'a jamais été déployé une fois Nevrax racheté.
+### Ingénieur Linux
 
 * Objectifs
-  * Création du site mettant en lien les créations des joueurs sur le Ryzom Ring et les plateformes externes.
-  * Gestion d'équipe de joueurs (MJ, invitations, etc.)
-  * Débogage du Ryzom Ring
+  * MCO
+  * MCS
+  * Support
+
+* Mise en œuvre
+  * Répondre aux tickets
+  * Résoudre les pannes
+
 * Stack technique
-  * Python, Zope, Plone, ZEO, Squid, Apache, MySQL, Torrent, CVS, Bugzilla, etc.
+  * VMware vSphere
+  * Proxmox
+  * Zimbra
+  * Bash, Postfix, etc.
 
-### Création du site communautaire
+--------------------------------------------------------------------------------
 
-Utilisation du nouveau moteur web du Ryzom Ring pour refaire le site communautaire
+## SJT - Formateur - 2023/10 à 2023/11
+
+Solidarités et Jalons pour le Travail est une association d'accompagnement à la réinsertion de jeunes et d'adultes.
+
+### Formateur PIX
 
 * Objectifs
-  * Création d'un nouveau site communautaire
-  * Création d'outils pour le staff interne
-  * Migration de données
-  * Téléchargement de clients lourds
-  * Optimisation de la charge
+  * Réduire la fracture numérique.
+  * Aider au retour à l'emploi.
+
+* Mise en œuvre
+  * Capacité à simplifier des concepts techniques.
+  * Adaptabilité pour répondre aux besoins des apprenants.
+  * Création d'ateliers didactiques
+  * Démonstration technique
+
 * Stack technique
-  * Python, Zope, Plone, ZEO, Squid, Apache, MySQL, Torrent, CVS, Bugzilla, etc.
+  * Rédaction de documentation
+  * Connaissance globale en informatique
+  * Démonstration d'une attaque par force brute avec l'outil de John the Ripper, OpenSSL
+  * ChatGPT
 
-### Management de l'équipe de développement web
-
-* Objectifs
-  * Formation en Python, HTML, CSS
-  * Formation à la gestion de version
-  * Distribution des tâches
-  * Validation du code
-* Stack technique
-  * Python, Zope, Plone, MySQL, CVS, Bugzilla, etc.
-
-### Gestion des campagnes publicitaires
-
-* Objectifs
-  * Vérifier l'origine de l'accès depuis la publicité
-  * Optimiser la distribution du streaming vidéo publicitaire
-* Stack technique
-  * Zope, Python, Pound, PHP, etc.
-
-### Administration de l'infrastructure Web
-
-Gestion des serveurs web communautaires
-
-* Objectifs
-  * Maintien en condition opérationnelle, sécurité
-  * Sauvegarde
-  * Déploiement
-* Stack technique
-  * Bash, Apache, Squid, SSH, rsync
-
-### Game Dev
-
-Participation à la conception de nouveaux éléments du jeu Saga of Ryzom
-
-* Objectifs
-  * Création de boss pour le jeu Saga of Ryzom
-  * Test QA du client du jeu
-  * Test de charge
-  * Debug
-* Stack technique
-  * Brainstorming
+* Résultat
+  * 90% de candidats certifiés au cours de ma formation.
 
 --------------------------------------------------------------------------------
 
@@ -119,11 +97,14 @@ Aday est une entreprise d’archivage et de panorama de presse. Au sein de l'éq
 
 ### Automatisation de l'installation des serveurs
 
+* Objectifs
+Installation semi-automatiser des serveurs à distance selon le type d'usage.
+
 * Mise en œuvre
   * VLAN dédié à l'installation (DHCP)
   * VLAN de maintenance (iLO, iDRAC, IPMI, etc.)
   * Création d'une image avec les firmwares pour les serveurs
-  * Recette d'installation semi-automatique
+  * Recettes d'installations semi-automatique
   * Miroir Debian local
 
 * Stack technique
@@ -171,7 +152,6 @@ Infrastructure de déploiement des applications permettant le rollback sans coup
 * Objectifs
   * Gestion, achat, maintenance des serveurs physiques
   * Serveurs applicatifs dans des conteneurs
-  * Serveurs Windows dans des machines virtuelles
   * Serveurs monolithiques pour les bases de données et l'archivage
   * Migration dev/preprod sur un cloud privé (hyperviseur)
 * Stack technique
@@ -181,6 +161,14 @@ Infrastructure de déploiement des applications permettant le rollback sans coup
   * Conteneurisation : LXC, libvirt, virt-manager, virsh, vservers
   * Virtualisation : KVM, VMware ESXi
   * Proxmox : LXC, KVM
+
+### Migration Serveur windows vers VMWare ESXi
+
+* Objectifs
+  * Migration des Serveurs Windows dans des machines virtuelles
+* Stack Technique
+  * VMware ESXi
+  * VMware converter
 
 ### Infrastructure Veille Audiovisuel (IA/LLM)
 
@@ -334,47 +322,71 @@ Or les serveurs physiques dure bien plus qu'un ans.
 
 --------------------------------------------------------------------------------
 
-## SJT - Formateur - 2023/10 à 2023/11
+## Nevrax - Développeur Zope - 2006/01 à 2007/01
 
-Solidarités et Jalons pour le Travail est une association d'accompagnement à la réinsertion de jeunes et d'adultes.
+Nevrax était éditeur/développeur du MMORPG Ryzom. En charge de la création des sites, de la gestion des serveurs web communautaires, du gestion et de la formation de l'équipe de développeurs Python/Zope et de la création des outils en lien avec les équipes marketing, QA et lore du jeu Ryzom.
 
-### Formateur PIX
+### Ryzom Ring
 
-* Objectifs
-  * Réduire la fracture numérique.
-  * Aider au retour à l'emploi.
-
-* Mise en œuvre
-  * Capacité à simplifier des concepts techniques.
-  * Adaptabilité pour répondre aux besoins des apprenants.
-  * Création d'ateliers didactiques
-  * Démonstration technique
-
-* Stack technique
-  * Rédaction de documentation
-  * Connaissance globale en informatique
-  * Démonstration d'une attaque par force brute avec l'outil de John the Ripper, OpenSSL
-  * ChatGPT
-
---------------------------------------------------------------------------------
-
-### OC3 - Ingénieur Linux - 2024/03 à 2024/05
-
-OC3 est un hébergeur, proposant d’héberger des infrastructures complètes de ses clients, l'infrastructure étant répartie sur 3 datacenters.
-
-### Ingénieur Linux
+Le Ryzom Ring était un projet d'extension pour permettre aux game designers, puis aux joueurs, d'éditer de nouvelles zones pour le MMO Saga Of Ryzom. Malgré une alpha concluante, le projet n'a jamais été déployé une fois Nevrax racheté.
 
 * Objectifs
-  * MCO
-  * MCS
-  * Support
-
-* Mise en œuvre
-  * Répondre aux tickets
-  * Résoudre les pannes
-
+  * Création du site mettant en lien les créations des joueurs sur le Ryzom Ring et les plateformes externes.
+  * Gestion d'équipe de joueurs (MJ, invitations, etc.)
+  * Débogage du Ryzom Ring
 * Stack technique
-  * VMware vSphere
-  * Proxmox
-  * Zimbra
-  * Bash, Postfix, etc.
+  * Python, Zope, Plone, ZEO, Squid, Apache, MySQL, Torrent, CVS, Bugzilla, etc.
+
+### Création du site communautaire
+
+Utilisation du nouveau moteur web du Ryzom Ring pour refaire le site communautaire
+
+* Objectifs
+  * Création d'un nouveau site communautaire
+  * Création d'outils pour le staff interne
+  * Migration de données
+  * Téléchargement de clients lourds
+  * Optimisation de la charge
+* Stack technique
+  * Python, Zope, Plone, ZEO, Squid, Apache, MySQL, Torrent, CVS, Bugzilla, etc.
+
+### Management de l'équipe de développement web
+
+* Objectifs
+  * Formation en Python, HTML, CSS
+  * Formation à la gestion de version
+  * Distribution des tâches
+  * Validation du code
+* Stack technique
+  * Python, Zope, Plone, MySQL, CVS, Bugzilla, etc.
+
+### Gestion des campagnes publicitaires
+
+* Objectifs
+  * Vérifier l'origine de l'accès depuis la publicité
+  * Optimiser la distribution du streaming vidéo publicitaire
+* Stack technique
+  * Zope, Python, Pound, PHP, etc.
+
+### Administration de l'infrastructure Web
+
+Gestion des serveurs web communautaires
+
+* Objectifs
+  * Maintien en condition opérationnelle, sécurité
+  * Sauvegarde
+  * Déploiement
+* Stack technique
+  * Bash, Apache, Squid, SSH, rsync
+
+### Game Dev
+
+Participation à la conception de nouveaux éléments du jeu Saga of Ryzom
+
+* Objectifs
+  * Création de boss pour le jeu Saga of Ryzom
+  * Test QA du client du jeu
+  * Test de charge
+  * Debug
+* Stack technique
+  * Brainstorming
