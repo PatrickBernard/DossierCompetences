@@ -99,7 +99,7 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 
 ### Automatisation de l'installation des serveurs
 
-Installation semi-automatiser des serveurs à distance selon le type d'usage.
+Installation semi-automatisée des serveurs à distance selon le type d'usage.
 
 * Mise en œuvre
   * VLAN dédié à l'installation (DHCP)
@@ -109,7 +109,7 @@ Installation semi-automatiser des serveurs à distance selon le type d'usage.
   * Miroir Debian local
 
 * Stack technique
-  * pfSense, Juniper, TFTP, DHCP, preseed, Bash, etc.
+  * pfSense, Juniper, TFTP, DHCP, preseed, Bash, nexus.
 
 ### Automatisation des déploiements applicatifs
 
