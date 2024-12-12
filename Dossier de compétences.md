@@ -138,7 +138,7 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 
 * Objectifs : Remonter d'informations matérielles et applicatives
 * Mise en œuvre : Centralisation, Visualisation de logs
-* Stack technique : Hobbit/Xymon, Smokeping, Zabbix, ELK (Elasticsearch, Logstash, Kibana)
+* Stack technique : Hobbit/Xymon, Smokeping, Zabbix, ELK (Elasticsearch, Logstash, Kibana), filebeat
 
 ### Gestion de la téléphonie VoIP
 
@@ -179,25 +179,26 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 * Objectifs : Mise en place d'outils de communications internes, les équipes étant réparties aux quatres coins de la France.
 * Stack technique : ejabberd, Rocket.Chat, EtherCalc, Etherpad, Haste, Plik, OpenVPN
 
-### Outils divers
+### Déploiement d'outils divers
 
-* Stack technique
-  * Serveur web : Nginx, Apache, Lighttpd, Gunicorn, etc.
+* Objectifs : Gestion et déploiements d'outils utilisé par nos applications
+* Stack technique :
+  * Serveur web : Nginx, Apache, Lighttpd, Gunicorn
   * Stockage d'objets : Memcached, Redis, Minio, CouchDB
   * Message broker/queuing : Kafka, RabbitMQ
-  * SQL : Opérations de routine sur PostgreSQL (+tail_n_mail), MySQL/MariaDB, SQLite et Oracle 8
+  * SQL : PostgreSQL (+tail_n_mail), MySQL/MariaDB, SQLite et Oracle 8
 
 ### Etude de stockage distribués
 
-* Objectifs : Permettre un flux de réception continue même en cas de panne d'un datacenter, Permettre à de multiples clients d'acceder au stockage.
+* Objectifs : Permettre un flux de réception continu même en cas de panne d'un datacenter, Permettre à de multiples clients d'accéder au stockage.
 * Technologie évaluer : GlusterFS, Ceph, Minio (S3)
-* Résultat : Les solutions testés sont toute robustes avec des performances similaire pour notre usage. Ceph est la plus onéreuse car requiert un réseaux distinct pour des performances optimal. Nous avons choisi GlusterFS pour des raisons de simplicité des retours arrières. GlusterFS s'ajoutant à un système de fichiers déjà existant, il suffit de le désactiver en cas de problème.
+* Résultat : Les solutions testées sont toutes robustes avec des performances similaires pour notre usage. Nous avons choisi GlusterFS pour des raisons de simplicité des retours arrière. GlusterFS s'ajoutant à un système de fichiers déjà existant, il suffit de le désactiver en cas de problème.
 
-### Etude de passage en cloud publique
+### Etude de passage en cloud public
 
-* Objectifs : Pour le projet de veille audiovisuel il a été envisagé d'exporté les serveurs de calculs sur un cloud publique.
-* Mise en œuvre : Benchmarker le cloud publique, Comparaison des couts versus nos solutions traditionnel bare-metal.
-* Résultats : Sur un ans, le cloud revient au même prix que l'achat physique des serveurs, or les serveurs physiques dure bien plus qu'un ans.
+* Objectifs : Pour le projet de veille audiovisuel il a été envisagé d'exporter les serveurs de calculs sur un cloud public.
+* Mise en œuvre : Benchmarker le cloud publique, Comparaison des coûts versus nos solutions traditionnelles bare-metal.
+* Résultats : Sur un an, le cloud revient au même prix que l'achat physique des serveurs, or les serveurs physiques dure bien plus d'un an.
 
 ###
 
@@ -215,63 +216,47 @@ Nevrax était éditeur/développeur du MMORPG Ryzom. En charge de la création d
 
 Le Ryzom Ring était un projet d'extension pour permettre aux game designers, puis aux joueurs, d'éditer de nouvelles zones pour le MMO Saga Of Ryzom. Malgré une alpha concluante, le projet n'a jamais été déployé une fois Nevrax racheté.
 
-* Objectifs
+* Objectifs :
   * Création du site mettant en lien les créations des joueurs sur le Ryzom Ring et les plateformes externes.
   * Gestion d'équipe de joueurs (MJ, invitations, etc.)
   * Débogage du Ryzom Ring
-* Stack technique
-  * Python, Zope, Plone, ZEO, Squid, Apache, MySQL, Torrent, CVS, Bugzilla, etc.
+* Stack technique : Python, Zope, Plone, ZEO, Squid, Apache, MySQL, Torrent, CVS, Bugzilla, etc.
 
 ### Création du site communautaire
 
-Utilisation du nouveau moteur web du Ryzom Ring pour refaire le site communautaire
-
-* Objectifs
+* Objectifs : Utilisation du nouveau moteur web du Ryzom Ring pour refaire le site communautaire
+* Mise en œuvre :
   * Création d'un nouveau site communautaire
   * Création d'outils pour le staff interne
   * Migration de données
   * Téléchargement de clients lourds
   * Optimisation de la charge
-* Stack technique
-  * Python, Zope, Plone, ZEO, Squid, Apache, MySQL, Torrent, CVS, Bugzilla, etc.
+* Stack technique : Python, Zope, Plone, ZEO, Squid, Apache, MySQL, Torrent, CVS, Bugzilla, etc.
 
 ### Management de l'équipe de développement web
 
-* Objectifs
+* Objectifs :
   * Formation en Python, HTML, CSS
   * Formation à la gestion de version
   * Distribution des tâches
   * Validation du code
-* Stack technique
-  * Python, Zope, Plone, MySQL, CVS, Bugzilla, etc.
+* Stack technique : Python, Zope, Plone, MySQL, CVS, Bugzilla, etc.
 
 ### Gestion des campagnes publicitaires
 
-* Objectifs
+* Objectifs :
   * Vérifier l'origine de l'accès depuis la publicité
   * Optimiser la distribution du streaming vidéo publicitaire
-* Stack technique
-  * Zope, Python, Pound, PHP, etc.
+* Stack technique : Zope, Python, Pound, PHP, etc.
 
 ### Administration de l'infrastructure Web
 
-Gestion des serveurs web communautaires
-
-* Objectifs
-  * Maintien en condition opérationnelle, sécurité
-  * Sauvegarde
-  * Déploiement
-* Stack technique
-  * Bash, Apache, Squid, SSH, rsync
+* Objectifs : Gestion des serveurs web communautaires
+* Mise en œuvre : MCO, MCS, backup, déploiement
+* Stack technique : Bash, Apache, Squid, SSH, rsync
 
 ### Game Dev
 
-Participation à la conception de nouveaux éléments du jeu Saga of Ryzom
-
-* Objectifs
-  * Création de boss pour le jeu Saga of Ryzom
-  * Test QA du client du jeu
-  * Test de charge
-  * Debug
-* Stack technique
-  * Brainstorming
+* Objectifs : Participation à la conception de nouveaux éléments du jeu Saga of Ryzom
+* Mise en œuvre : Création de boss pour le jeu Saga of Ryzom, Test QA du client du jeu, Test de charge, Debug
+* Stack technique : Brainstorming
