@@ -166,7 +166,7 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 ### Gestion Mail Interne
 
 * Objectifs : Gestion des mails internes des collaborateurs, lancement de scripts, spam
-* Stack technique : postfix, dovecot, ldap, procmail, sieve, fetchmail, maildrop, clamav, roundcube, ldapsync
+* Stack technique : postfix, dovecot, ldap, procmail, sieve, fetchmail, maildrop, clamav, roundcube, imapsync
 
 ### Gestion FTP réception Presse
 
