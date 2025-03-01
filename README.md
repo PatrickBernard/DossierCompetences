@@ -41,7 +41,7 @@
 
 --------------------------------------------------------------------------------
 
-### OC3 - Ingénieur Linux - 2024/03 à 2024/05
+## OC3 - Ingénieur Linux - 2024/03 à 2024/05
 
 OC3 est un hébergeur, proposant d’héberger des infrastructures complètes de ses clients, l'infrastructure étant répartie sur 3 datacenters.
 
@@ -91,7 +91,7 @@ Solidarités et Jalons pour le Travail est une association d'accompagnement à l
 
 --------------------------------------------------------------------------------
 
-## Aday, Administrateur système, 2008/10 à 2021/11
+## Aday - Administrateur système - 2008/10 à 2021/11
 
 Aday est une entreprise de services spécialisée dans la veille médiatique et la mise en valeur des données.
 
