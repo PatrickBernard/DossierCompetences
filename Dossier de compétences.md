@@ -94,6 +94,16 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 * Objectifs : Maintenance et mise en place de zone DNS interne et externe
 * Stack technique : BIND (externe), PowerDNS (interne), Bash, Ansible
 
+### Backup des Windows Server
+
+* Objectifs : Réinstaller rapidement les plateformes Windows Server
+* Stack technique : Clonezilla
+
+### Virtualisation des plateformes d'un partenaire
+
+* Objectifs : Migration des serveurs zope/plone d'un partenaire vers une solution de virtualisation
+* Stack Technique : virtualbox, netcat, rsync
+
 ### Migration Serveur windows vers VMWare ESXi
 
 * Objectifs : Migration des Serveurs Windows dans des machines virtuelles
@@ -152,10 +162,10 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 * Mise en œuvre : scripts de migrations
 * Stack technique : Proxmox, Bash
 
-### Backup des Windows Server
+### Migration Serveur windows vers proxmox
 
-* Objectifs : Réinstaller rapidement les plateformes Windows Server
-* Stack technique : Clonezilla
+* Objectifs : Migration des Serveurs Windows VMWare ESXi vers proxmox
+* Stack Technique : VMware ESXi, proxmox
 
 ### Gestion Mail client
 
