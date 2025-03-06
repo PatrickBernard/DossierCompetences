@@ -81,7 +81,7 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 ### Automatisation des déploiements applicatifs
 
 * Objectifs : Infrastructure de déploiement des applications permettant le rollback sans coupures de services depuis un bastion.
-* Mise en œuvre : Standardisation des applications, Pilotage des recettes via Jenkins, Déploiement des artefact applicatifs sur un nœud fictif identique à la production, validation, Validation, Déploiement en (pre)production.
+* Mise en œuvre : Standardisation des applications, Pilotage des recettes via Jenkins, Déploiement des artefact applicatifs sur un nœud fictif identique à la production, Validation, Déploiement en (pre)production.
 * Stack technique : Bash, Jenkins, Ansible, Git, GitLab, HAProxy, Keepalived, Nexus
 
 ### Gestion de projets
@@ -249,7 +249,7 @@ Le Ryzom Ring était un projet d'extension pour permettre aux game designers, pu
   * Formation en Python, HTML, CSS
   * Formation à la gestion de version
   * Distribution des tâches
-  * Validation du code
+  *  du code
 * Stack technique : Python, Zope, Plone, MySQL, CVS, Bugzilla, etc.
 
 ### Gestion des campagnes publicitaires
