@@ -1,4 +1,4 @@
-# Ingénieur Linux, Adminsys, SRE, DevOps
+# Ingénieur Linux, AdminSys, SRE, DevOps
 
 ## Patrick Bernard - 18/11/1980
 
@@ -45,8 +45,8 @@
 
 ### Bluesky
 
-* Création d'un projet de détection de bot pour lutter contre l'opération doppelganger.
-* Dans le cadre de récolte de preuve anti harcèlement : Script pour sauvegarder les contenus d'un compte.
+* Création d'un projet de détection de bot pour lutter contre l'opération doppelgänger.
+* Dans le cadre de récolte de preuve contre un harcèlement en ligne : Script pour sauvegarder le contenu d'un compte.
 
 ### Homelabs
 
