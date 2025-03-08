@@ -41,6 +41,27 @@
 
 --------------------------------------------------------------------------------
 
+## Indépendant - Gamedev, Freelance - depuis 2022
+
+### Bluesky
+
+* Création d'un projet de détection de bot pour lutter contre l'opération doppelganger.
+* Dans le cadre de récolte de preuve anti harcèlement : Script pour sauvegarder les contenus d'un compte.
+
+### Homelabs
+
+* Gestion de mon infra perso me servant pour l'apprentissage.
+* Un proxmox de 3 cluster / nas / switch L3 manageable / ...
+* Test de services varié.
+
+### Gamedev
+
+* Participation à des gamejams
+* Participation à des opérations caritatives
+* Principalement Unity et Godot ( C# )
+
+--------------------------------------------------------------------------------
+
 ## OC3 - Ingénieur Linux - 2024/03 à 2024/05
 
 OC3 est un hébergeur, proposant d’héberger des infrastructures complètes de ses clients, l'infrastructure étant répartie sur 3 datacenters.
