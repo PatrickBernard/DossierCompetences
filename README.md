@@ -52,7 +52,7 @@
 
 * Gestion de mon infra perso me servant pour l'apprentissage.
 * Un proxmox de 3 cluster / nas / switch L3 manageable / ...
-* Test de services varié.
+* Test de services divers.
 
 ### Gamedev
 
