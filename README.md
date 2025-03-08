@@ -270,7 +270,7 @@ Le Ryzom Ring était un projet d'extension pour permettre aux game designers, pu
   * Formation en Python, HTML, CSS
   * Formation à la gestion de version
   * Distribution des tâches
-  *  du code
+  * Relecture du code
 * Stack technique : Python, Zope, Plone, MySQL, CVS, Bugzilla, etc.
 
 ### Gestion des campagnes publicitaires
