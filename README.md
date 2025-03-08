@@ -115,6 +115,12 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 * Objectifs : Maintenance et mise en place de zone DNS interne et externe
 * Stack technique : BIND (externe), PowerDNS (interne), Bash, Ansible
 
+### Gestion Bases de données
+
+* Objectifs : Administrer les différentes bases de données
+* Mise en œuvre : Installer et maintenir les différentes bases de données, réplication selon les besoin, gestion des droits, ...
+* Stack technique : PostgreSQL (+tail_n_mail), MySQL/MariaDB, SQLite et Oracle 8
+
 ### Backup des Windows Server
 
 * Objectifs : Réinstaller rapidement les plateformes Windows Server
@@ -217,7 +223,6 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
   * Serveur web : Nginx, Apache, Lighttpd, Gunicorn
   * Stockage d'objets : Memcached, Redis, Minio, CouchDB
   * Message broker/queuing : Kafka, RabbitMQ
-  * SQL : PostgreSQL (+tail_n_mail), MySQL/MariaDB, SQLite et Oracle 8
 
 ### Etude de stockage distribués
 
