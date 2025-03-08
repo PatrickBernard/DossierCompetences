@@ -41,6 +41,27 @@
 
 --------------------------------------------------------------------------------
 
+## Indépendant - Gamedev, Freelance - depuis 2022
+
+### Bluesky
+
+* Création d'un projet de détection de bot pour lutter contre l'opération doppelganger.
+* Dans le cadre de récolte de preuve anti harcèlement : Script pour sauvegarder les contenus d'un compte.
+
+### Homelabs
+
+* Gestion de mon infra perso me servant pour l'apprentissage.
+* Un proxmox de 3 cluster / nas / switch L3 manageable / ...
+* Test de services varié.
+
+### Gamedev
+
+* Participation à des gamejams
+* Participation à des opérations caritatives
+* Principalement Unity et Godot ( C# )
+
+--------------------------------------------------------------------------------
+
 ## OC3 - Ingénieur Linux - 2024/03 à 2024/05
 
 OC3 est un hébergeur, proposant d’héberger des infrastructures complètes de ses clients, l'infrastructure étant répartie sur 3 datacenters.
@@ -81,7 +102,7 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 ### Automatisation des déploiements applicatifs
 
 * Objectifs : Infrastructure de déploiement des applications permettant le rollback sans coupures de services depuis un bastion.
-* Mise en œuvre : Standardisation des applications, Pilotage des recettes via Jenkins, Déploiement des artefact applicatifs sur un nœud fictif identique à la production, validation, Validation, Déploiement en (pre)production.
+* Mise en œuvre : Standardisation des applications, Pilotage des recettes via Jenkins, Déploiement des artefact applicatifs sur un nœud fictif identique à la production, Validation, Déploiement en (pre)production.
 * Stack technique : Bash, Jenkins, Ansible, Git, GitLab, HAProxy, Keepalived, Nexus
 
 ### Gestion de projets
@@ -249,7 +270,7 @@ Le Ryzom Ring était un projet d'extension pour permettre aux game designers, pu
   * Formation en Python, HTML, CSS
   * Formation à la gestion de version
   * Distribution des tâches
-  * Validation du code
+  *  du code
 * Stack technique : Python, Zope, Plone, MySQL, CVS, Bugzilla, etc.
 
 ### Gestion des campagnes publicitaires
