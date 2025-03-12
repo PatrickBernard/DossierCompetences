@@ -46,7 +46,7 @@
 ### Bluesky
 
 * Création d'un projet de détection de bot pour lutter contre l'opération doppelgänger.
-* Dans le cadre de récolte de preuve contre un harcèlement en ligne : Script pour sauvegarder le contenu d'un compte.
+* Dans le cadre de récolte de preuve contre un harcèlement en ligne : Script pour sauvegarder le contenu d'un compte.
 
 ### Homelabs
 
@@ -81,8 +81,8 @@ Solidarités et Jalons pour le Travail est une association d'accompagnement à l
 ### Formateur PIX
 
 * Objectifs : Réduire la fracture numérique, Aider au retour à l'emploi.
-* Mise en œuvre : Capacité à simplifier des concepts techniques; Adaptabilité pour répondre aux besoins des apprenants; Création d'ateliers didactiques; Démonstration technique
-* Stack technique : Rédaction de documentation; Connaissance globale en informatique; Démonstration d'une attaque par force brute avec l'outil de John the Ripper, OpenSSL; ChatGPT
+* Mise en œuvre : Capacité à simplifier des concepts techniques ; Adaptabilité pour répondre aux besoins des apprenants ; Création d'ateliers didactiques ; Démonstration technique
+* Stack technique : Rédaction de documentation ; Connaissance globale en informatique ; Démonstration d'une attaque par force brute avec l'outil de John the Ripper, OpenSSL, ChatGPT
 * Résultat : 90% de candidats certifiés au cours de ma formation.
 
 --------------------------------------------------------------------------------
@@ -102,7 +102,7 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 ### Automatisation des déploiements applicatifs
 
 * Objectifs : Infrastructure de déploiement des applications permettant le rollback sans coupures de services depuis un bastion.
-* Mise en œuvre : Standardisation des applications, Pilotage des recettes via Jenkins, Déploiement des artefact applicatifs sur un nœud fictif identique à la production, Validation, Déploiement en (pre)production.
+* Mise en œuvre : Standardisation des applications, Pilotage des recettes via Jenkins, Déploiement des artefacts applicatifs sur un nœud fictif identique à la production, Validation, Déploiement en (pre)production.
 * Stack technique : Bash, Jenkins, Ansible, Git, GitLab, HAProxy, Keepalived, Nexus
 
 ### Gestion de projets
@@ -113,12 +113,12 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 ### Gestion DNS
 
 * Objectifs : Maintenance et mise en place de zone DNS interne et externe
-* Stack technique : BIND (externe), PowerDNS (interne), Bash, Ansible
+* Stack technique : BIND (externe), PowerDNS (interne), Bash, Ansible.
 
 ### Gestion Bases de données
 
 * Objectifs : Administrer les différentes bases de données
-* Mise en œuvre : Installer et maintenir les différentes bases de données, réplication selon les besoin, gestion des droits, ...
+* Mise en œuvre : Installer et maintenir les différentes bases de données, réplication selon les besoins, gestion des droits, etc.
 * Stack technique : PostgreSQL (+tail_n_mail), MySQL/MariaDB, SQLite et Oracle 8
 
 ### Backup des Windows Server
@@ -150,8 +150,8 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 
 ### Cluster de calcul Speech2text LLM/IA en partenariat avec l’université d’Aix
 
-* Objectifs : Installation de l'IA de recherche d'apprentissage et de calcul
-* Mise en œuvre : un serveur d'apprentissage à base de 3090, multiple serveur de calcules
+* Objectifs : Installation de l'IA de recherche, d'apprentissage et de calcul
+* Mise en œuvre : un serveur d'apprentissage à base de 3090, multiples serveurs de calculs
 * Stack technique : CUDA, lsyncd, supervisord, glusterfs
 
 ### Infrastructures des sauvegardes des documents de presse
@@ -168,7 +168,7 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 
 ### Maintien en condition opérationnelle
 
-* Mise en œuvre : Monitoring, redondance matériel et applicatives, Inventorier les ressources matérielles disponibles
+* Mise en œuvre : Monitoring, redondance matérielle et applicative, Inventorier les ressources matérielles disponibles
 * Stack technique : Bash, Zabbix, Hobbit/Xymon, HAProxy, Keepalived, RAID, ZFS, GLPI, Racktables, FusionInventory, etc.
 
 ### Monitoring
@@ -207,8 +207,8 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 
 ### Gestion FTP réception Presse
 
-* Objectifs : Recevoir les flux presse papier en continue
-* Mise en œuvre : Multiple serveurs FTP, script de gestion des fournitures selon chaque type de réceptions
+* Objectifs : Recevoir les flux presse en continue.
+* Mise en œuvre : Multiples serveurs FTP, script de gestion des fournitures selon chaque type de réceptions
 * Stack technique : keepalived, vsftpd, scripting
 
 ### Outils de communications
@@ -218,35 +218,29 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 
 ### Déploiement d'outils divers
 
-* Objectifs : Gestion et déploiements d'outils utilisé par nos applications
+* Objectifs : Gestion et déploiements d'outils utilisée par nos applications
 * Stack technique :
   * Serveur web : Nginx, Apache, Lighttpd, Gunicorn
   * Stockage d'objets : Memcached, Redis, Minio, CouchDB
   * Message broker/queuing : Kafka, RabbitMQ
 
-### Etude de stockage distribués
+### Étude de stockage distribué
 
 * Objectifs : Permettre un flux de réception continu même en cas de panne d'un datacenter, Permettre à de multiples clients d'accéder au stockage.
-* Technologie évaluer : GlusterFS, Ceph, Minio (S3)
+* Technologie évalué : GlusterFS, Ceph, Minio (S3)
 * Résultat : Les solutions testées sont toutes robustes avec des performances similaires pour notre usage. Nous avons choisi GlusterFS pour des raisons de simplicité des retours arrière. GlusterFS s'ajoutant à un système de fichiers déjà existant, il suffit de le désactiver en cas de problème.
 
 ### Etude de passage en cloud public
 
-* Objectifs : Pour le projet de veille audiovisuel il a été envisagé d'exporter les serveurs de calculs sur un cloud public.
-* Mise en œuvre : Benchmarker le cloud publique, Comparaison des coûts versus nos solutions traditionnelles bare-metal.
+* Objectifs : Pour le projet de veille audiovisuel, il a été envisagé d'exporter les serveurs de calculs sur un cloud public.
+* Mise en œuvre : Benchmark le cloud public, Comparaison des coûts versus nos solutions traditionnelles bare-metal.
 * Résultats : Sur un an, le cloud revient au même prix que l'achat physique des serveurs, or les serveurs physiques dure bien plus d'un an.
-
-###
-
-* Objectifs :
-* Mise en œuvre :
-* Stack technique :
 
 --------------------------------------------------------------------------------
 
 ## Nevrax - Développeur Zope - 2006/01 à 2007/01
 
-Nevrax était éditeur/développeur du MMORPG Ryzom. En charge de la création des sites, de la gestion des serveurs web communautaires, du gestion et de la formation de l'équipe de développeurs Python/Zope et de la création des outils en lien avec les équipes marketing, QA et lore du jeu Ryzom.
+Nevrax était éditeur/développeur du MMORPG Ryzom. En charge de la création des sites, de la gestion des serveurs web communautaires, de la gestion et de la formation de l'équipe de développeurs Python/Zope et de la création des outils en lien avec les équipes marketing, QA et lore du jeu Ryzom.
 
 ### Ryzom Ring
 
