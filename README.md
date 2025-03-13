@@ -221,10 +221,10 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 * Objectifs : remplacement des anciens sccm par Git
 * Stack Technique : Git, Gitolite, git-svn, git-cvsimport
 
-### Serveur webs
+### Serveurs Webs
 
 * Objectifs : Avoir une Stack web redondé, chiffré
-* Mise en œuvre : DMZ composé du haproxy+keepalived+let's encrypt redirogeant vers les reverses proxy nginx.
+* Mise en œuvre : Internet => FW => rproxy(nginx+letsencrypt) => haproxy => node webs ; chaque rproxy/haproxy x2 avec keepalived.
 * Stack Technique : haproxy, keepalived, let's encrypt, nginx, apache, php-fpm
 
 ### Déploiement d'outils divers
