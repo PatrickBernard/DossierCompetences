@@ -168,14 +168,14 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 
 ### Maintien en condition opérationnelle
 
-* Mise en œuvre : Monitoring, redondance matérielle et applicative, Inventorier les ressources matérielles disponibles
+* Mise en œuvre : Monitoring, Redondance matérielle et applicative, Inventorier les ressources matérielles disponibles
 * Stack technique : Bash, Zabbix, Hobbit/Xymon, HAProxy, Keepalived, RAID, ZFS, GLPI, Racktables, FusionInventory, etc.
 
-### Monitoring
+### Observabilité - Monitoring
 
 * Objectifs : Remonter d'informations matérielles et applicatives
-* Mise en œuvre : Centralisation, Visualisation de logs
-* Stack technique : Hobbit/Xymon, Smokeping, Zabbix, ELK (Elasticsearch, Logstash, Kibana), filebeat
+* Mise en œuvre : Centralisation, Visualisation de logs, Script pour monitorer le hardware, Script pour monitorer les bases de données
+* Stack technique : Hobbit/Xymon, Smokeping, Zabbix, ELK (Elasticsearch, Logstash, Kibana), filebeat, bash, python
 
 ### Gestion de la téléphonie VoIP
 
@@ -183,7 +183,7 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 * Mise en œuvre : Installation de Wazo, Configuration automatique des téléphones, Attribution des numéros pour chaque utilisateur, Gestion des groupes
 * Stack technique : Wazo, Asterisk
 
-### Migration dev/preprod sur un cloud privé
+### Migration dev/preprod sur un cloud privé (proxmox)
 
 * Objectifs : Uniformisation de l'infra, Passage à proxmox des serveurs de dev/preprod, migration des VM KVM et ESXi.
 * Mise en œuvre : scripts de migrations
@@ -202,7 +202,7 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 
 ### Gestion Mail Interne
 
-* Objectifs : Gestion des mails internes des collaborateurs, lancement de scripts, spam
+* Objectifs : Gestion des mails internes des collaborateurs, lancement de scripts sur événement, spam
 * Stack technique : postfix, dovecot, ldap, procmail, sieve, fetchmail, maildrop, clamav, roundcube, imapsync
 
 ### Gestion FTP réception Presse
@@ -216,11 +216,22 @@ Au sein de l'équipe exploitation, en charge de la gestion matérielle et logici
 * Objectifs : Mise en place d'outils de communications internes, les équipes étant réparties aux quatres coins de la France.
 * Stack technique : ejabberd, Rocket.Chat, EtherCalc, Etherpad, Haste, Plik, OpenVPN
 
+### Migration SVN/CVS vers Git
+
+* Objectifs : remplacement des anciens sccm par Git
+* Stack Technique : Git, Gitolite, git-svn, git-cvsimport
+
+### Serveur webs
+
+* Objectifs : Avoir une Stack web redondé, chiffré
+* Mise en œuvre : DMZ composé du haproxy+keepalived+let's encrypt redirogeant vers les reverses proxy nginx.
+* Stack Technique : haproxy, keepalived, let's encrypt, nginx, apache, php-fpm
+
 ### Déploiement d'outils divers
 
 * Objectifs : Gestion et déploiements d'outils utilisée par nos applications
 * Stack technique :
-  * Serveur web : Nginx, Apache, Lighttpd, Gunicorn
+  * Serveur web : Lighttpd, Gunicorn
   * Stockage d'objets : Memcached, Redis, Minio, CouchDB
   * Message broker/queuing : Kafka, RabbitMQ
 
