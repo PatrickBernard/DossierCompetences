@@ -12,8 +12,9 @@
 | Maintien en condition de sécurité | Expert |
 | Achat/gestion de Matériel | Expert |
 | Bases de données SQL | Confirmé |
-| Configuration (IAC) | Confirmé |
+| Infrastructure As Code | Confirmé |
 | Gestion de projet | Débutant |
+| CI/CD | Confirmé |
 
 ### Savoir-être
 
@@ -36,6 +37,7 @@
 | HAProxy | Confirmé |
 | Keepalived | Confirmé |
 | GitLab | Confirmé |
+| Jenkins | Confirmé |
 | Docker | Débutant |
 | Minio | Débutant |
 
