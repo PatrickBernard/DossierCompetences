@@ -173,8 +173,6 @@ Au sein de l’éditeur du MMORPG **Ryzom**, développement web, administration 
 | Game development | Godot, Unity |
 | Outils et collaboration | Redmine, Request Tracker, GLPI, Racktables, Rocket.Chat |
 
-*Cette liste regroupe les technologies citées dans le CV et le dossier de compétences existant ; elle ne constitue pas une certification de niveau pour chaque outil.*
-
 ## Formation
 
 - **Master Sciences et Technologies — Ingénierie des systèmes, réseaux et applications distribués**, Université de Picardie Jules Verne — 2005–2006.
@@ -187,8 +185,6 @@ Au sein de l’éditeur du MMORPG **Ryzom**, développement web, administration 
 - Français
 - Anglais
 
-*Le CV source ne précise pas de niveau de maîtrise pour ces langues.*
-
 ## Centres d’intérêt
 
 - Développement de jeux vidéo et game jams.
@@ -200,5 +196,3 @@ Au sein de l’éditeur du MMORPG **Ryzom**, développement web, administration 
 - Lutte contre la désinformation et veille open source.
 
 ---
-
-*Document mis à jour à partir du CV fourni (15 octobre 2026) et du dossier de compétences GitHub existant. Les missions détaillées historiques sont conservées lorsqu’elles apportent du contexte technique ; les informations récentes du CV sont intégrées en tête de parcours.*
