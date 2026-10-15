@@ -1,305 +1,204 @@
-# Ingénieur Linux, AdminSys, SRE, DevOps
+# Patrick Bernard — Ingénieur Linux, Infrastructure & Reliability
 
-## Patrick Bernard - 18/11/1980
+**Infrastructure · SRE · DevOps · Linux · Automatisation · Virtualisation**
 
-### Savoir-faire
+[GitHub](https://github.com/PatrickBernard) · [LinkedIn](https://www.linkedin.com/in/pb42/) · [Itch.io](https://patrx.itch.io/) · [Contact](mailto:bernardpatrickgerard@yahoo.fr)
 
-| Compétences | Niveaux (Débutant-Confirmé-Expert [10 ans min]) |
-| ------ | ------ |
-| Administration système Linux | Expert |
-| Hyperconvergence, Conteneurs | Expert |
-| Maintien en condition opérationnelle | Expert |
-| Maintien en condition de sécurité | Expert |
-| Achat/gestion de Matériel | Expert |
-| Bases de données SQL | Confirmé |
-| Infrastructure As Code | Confirmé |
-| Gestion de projet | Débutant |
-| CI/CD | Confirmé |
+## Profil
 
-### Savoir-être
+Ingénieur Linux et infrastructure avec **13 ans d’expérience** dans l’exploitation d’infrastructures complexes, la virtualisation, l’automatisation et la fiabilité des services. Expérience de la gestion de parcs de serveurs physiques et de machines virtuelles, de la mise en place de chaînes CI/CD, de la haute disponibilité, de la sécurité opérationnelle, du stockage distribué et de plateformes de calcul pour des projets IA/LLM.
 
-* Vigilance, curiosité, intégrité, polyvalence
+Attaché aux technologies open source, à l’expérimentation et à la veille continue. En parallèle de mon activité infrastructure, je développe des projets de jeux vidéo et m’intéresse à la préservation vidéoludique ainsi qu’à la lutte contre la désinformation.
 
-### OUTILS
+## Compétences clés
 
-| Nom | Niveaux (Débutant-Confirmé-Expert [10 ans min]) |
-| ------ | ------ |
-| Linux (Debian) | Expert |
-| LXC | Expert |
-| Bash | Confirmé |
-| Proxmox | Confirmé |
-| Ansible | Confirmé |
-| Zabbix | Confirmé |
-| pfSense | Confirmé |
-| Git | Confirmé |
-| GlusterFS | Confirmé |
-| Serveur web | Confirmé |
-| HAProxy | Confirmé |
-| Keepalived | Confirmé |
-| GitLab | Confirmé |
-| Jenkins | Confirmé |
-| Docker | Débutant |
-| Minio | Débutant |
+- **Systèmes Linux :** administration, exploitation, maintenance et automatisation.
+- **Production & fiabilité :** MCO/MCS, supervision, diagnostic d’incidents, redondance et haute disponibilité.
+- **Infrastructure as Code & automatisation :** Ansible, Bash, scripts d’installation et de migration.
+- **CI/CD & déploiement :** industrialisation, validation, déploiements progressifs et stratégies de retour arrière.
+- **Virtualisation & conteneurs :** Proxmox, VMware, KVM, LXC et Docker.
+- **Stockage & données :** PostgreSQL, MySQL/MariaDB, Redis, GlusterFS, MinIO et étude de solutions distribuées.
+- **Réseaux & services :** DNS, DHCP, VPN, reverse proxy, équilibrage de charge, messagerie et VoIP.
+- **Sécurité opérationnelle :** mises à jour, surveillance des journaux, filtrage, HTTPS et gestion des identités.
+- **Transmission :** conception d’ateliers, démonstrations techniques et vulgarisation de sujets complexes.
 
---------------------------------------------------------------------------------
+## Expériences professionnelles
 
-## Indépendant - Gamedev, Freelance - depuis 2022
+### Administrateur système et cloud — Ediser
+**Juin 2025 – Décembre 2025 · Montpellier**
 
-### Bluesky
+- Maintien en condition opérationnelle et de sécurité (MCO/MCS) de l’infrastructure.
+- Migration et déploiement d’une solution SSO/IAM basée sur **Keycloak**.
+- Activités de R&D.
 
-* Création d'un projet de détection de bot pour lutter contre l'opération doppelgänger.
-* Dans le cadre de récolte de preuve contre un harcèlement en ligne : Script pour sauvegarder le contenu d'un compte.
+### Ingénieur Linux — OC3 Network
+**Mars 2024 – Mai 2024 · Montpellier**
 
-### Homelabs
+- Maintien en condition opérationnelle et de sécurité de l’infrastructure.
+- Exploitation d’environnements **VMware vSphere**.
+- Administration de serveurs de messagerie **Zimbra**.
 
-* Gestion de mon infra perso me servant pour l'apprentissage.
-* Un proxmox de 3 cluster / nas / switch L3 manageable / ...
-* Test de services divers.
+### Formateur — SJT Formation
+**Septembre 2023 – Octobre 2023 · Compiègne**
 
-### Gamedev
+- Conception d’ateliers pédagogiques et de démonstrations techniques.
+- Simplification de concepts techniques complexes.
+- Adaptation des contenus aux profils et besoins des apprenants.
 
-* Participation à des gamejams
-* Participation à des opérations caritatives
-* Principalement Unity et Godot ( C# )
+### Administrateur systèmes et réseaux — Aday
+**Octobre 2008 – Novembre 2021 · Paris**
 
---------------------------------------------------------------------------------
+Au sein de l’équipe exploitation d’une entreprise spécialisée dans la veille médiatique et la valorisation des données, gestion d’infrastructures réparties sur plusieurs datacenters : **plus de 100 serveurs physiques et 300 machines virtuelles**.
 
-## OC3 - Ingénieur Linux - 2024/03 à 2024/05
+#### Exploitation, infrastructure et virtualisation
 
-OC3 est un hébergeur, proposant d’héberger des infrastructures complètes de ses clients, l'infrastructure étant répartie sur 3 datacenters.
+- Administration et maintenance des serveurs physiques, machines virtuelles et conteneurs.
+- Mise en place progressive d’une infrastructure largement virtualisée dès 2008.
+- Gestion de serveurs applicatifs conteneurisés et de serveurs dédiés aux bases de données et à l’archivage.
+- Migration de plateformes VMware ESXi/KVM vers Proxmox et migration de serveurs Windows virtualisés.
+- Gestion du matériel, de son renouvellement et de sa maintenance.
 
-### Ingénieur Linux
+**Environnement :** Debian/Linux, Proxmox, VMware ESXi, KVM, libvirt, LXC, vservers, HPE, Dell, Supermicro, Juniper.
 
-* Objectifs : MCO, MCS, Support
-* Mise en œuvre : Répondre aux tickets, Résoudre les pannes
-* Stack technique : VMware vSphere, Proxmox, Zimbra, Bash, Postfix, etc.
+#### Automatisation des installations et déploiements
 
---------------------------------------------------------------------------------
+- Automatisation semi-industrialisée de l’installation distante des serveurs selon leur usage.
+- Mise en place de réseaux VLAN dédiés à l’installation et à la maintenance matérielle (iLO, iDRAC, IPMI).
+- Création d’images intégrant les firmwares, de procédures d’installation et d’un miroir Debian local.
+- Mise en place de chaînes de déploiement applicatif depuis un bastion, avec validation et possibilité de retour arrière sans interruption de service.
+- Standardisation des applications et pilotage des recettes via Jenkins, sur un nœud de validation proche de la production.
 
-## SJT - Formateur - 2023/10 à 2023/11
+**Environnement :** Bash, Ansible, Jenkins, Git, GitLab, Nexus, TFTP, DHCP, preseed, pfSense, HAProxy, Keepalived.
 
-Solidarités et Jalons pour le Travail est une association d'accompagnement à la réinsertion de jeunes et d'adultes.
+#### CI/CD et outils de développement
 
-### Formateur PIX
+- Mise en œuvre et maintenance d’architectures CI/CD pour **plus de 300 applications internes**.
+- Déploiement et maintenance d’outils de gestion de projets et de développement.
+- Migration de dépôts CVS/SVN vers Git.
 
-* Objectifs : Réduire la fracture numérique, Aider au retour à l'emploi.
-* Mise en œuvre : Capacité à simplifier des concepts techniques ; Adaptabilité pour répondre aux besoins des apprenants ; Création d'ateliers didactiques ; Démonstration technique
-* Stack technique : Rédaction de documentation ; Connaissance globale en informatique ; Démonstration d'une attaque par force brute avec l'outil de John the Ripper, OpenSSL, ChatGPT
-* Résultat : 90% de candidats certifiés au cours de ma formation.
+**Environnement :** Jenkins, Git, GitLab, Gitolite, SVN, CVS, Redmine, Request Tracker, OpenLDAP.
 
---------------------------------------------------------------------------------
+#### Haute disponibilité, réseau et services web
 
-## Aday - Administrateur système - 2008/10 à 2021/11
+- Conception et exploitation de services web redondés et chiffrés, avec reverse proxy et répartition de charge.
+- Gestion des DNS internes et externes.
+- Mise en œuvre de mécanismes de redondance matérielle et applicative.
+- Exploitation de services FTP pour la réception continue de flux de presse.
+- Étude de solutions de stockage distribué pour assurer la continuité des flux en cas de panne d’un datacenter.
 
-Aday est une entreprise de services spécialisée dans la veille médiatique et la mise en valeur des données.
+**Environnement :** BIND, PowerDNS, Nginx, Apache, PHP-FPM, HAProxy, Keepalived, Let's Encrypt, vsftpd, GlusterFS, lsyncd, rsync, Ceph, MinIO.
 
-Au sein de l'équipe exploitation, en charge de la gestion matérielle et logicielle des Datacenters (100 serveurs physiques, 300 VM et conteneurs), de la mise en place du CI/CD, de la haute disponibilité, des différents plans de sécurité et du monitoring. Mise en place d'une architecture presque entièrement virtualisée dès 2008. Gestion des bases de données et des clusters de calculs.
+#### Bases de données, stockage et sauvegardes
 
-### Automatisation de l'installation des serveurs
+- Administration des bases de données : installation, maintenance, gestion des droits, sauvegardes et réplication.
+- Mise en place d’archives froides de documents de presse, répliquées sur plusieurs datacenters.
+- Gestion de volumes de stockage et extensions RAID pour accompagner la croissance des données.
+- Évaluation de GlusterFS, Ceph et MinIO ; choix de GlusterFS pour sa simplicité opérationnelle et la facilité de retour arrière dans le contexte étudié.
 
-* Objectifs : Installation semi-automatisée des serveurs à distance selon le type d'usage.
-* Mise en œuvre : VLAN dédié à l'installation (DHCP), VLAN de maintenance (iLO, iDRAC, IPMI, etc.), Création d'une image avec les firmwares pour les serveurs, Recettes d'installations semi-automatique, Miroir Debian local
-* Stack technique : pfSense, Juniper, TFTP, DHCP, preseed, Bash, nexus.
+**Environnement :** PostgreSQL, MySQL, MariaDB, SQLite, Oracle 8, Redis, GlusterFS, MinIO, RAID, ZFS, rsync, backupninja.
 
-### Automatisation des déploiements applicatifs
+#### Supervision, sécurité et maintien en condition
 
-* Objectifs : Infrastructure de déploiement des applications permettant le rollback sans coupures de services depuis un bastion.
-* Mise en œuvre : Standardisation des applications, Pilotage des recettes via Jenkins, Déploiement des artefacts applicatifs sur un nœud fictif identique à la production, Validation, Déploiement en (pre)production.
-* Stack technique : Bash, Jenkins, Ansible, Git, GitLab, HAProxy, Keepalived, Nexus
+- Supervision des ressources matérielles et applicatives, centralisation et visualisation des journaux.
+- Écriture de scripts de contrôle matériel et de surveillance des bases de données.
+- Politique régulière de mises à jour, surveillance des logs, blocage préventif et généralisation du HTTPS.
+- Gestion des sauvegardes, de l’inventaire et des outils de suivi de parc.
 
-### Gestion de projets
+**Environnement :** Zabbix, Hobbit/Xymon, Smokeping, ELK (Elasticsearch, Logstash, Kibana), Filebeat, Bash, Python, unattended-upgrades, fail2ban, OpenSSL, Keycloak, GLPI, Racktables, FusionInventory.
 
-* Objectifs : Déploiement et maintenance des outils de gestions de projets
-* Stack technique : Redmine, Request Tracker, GitLab, Git, Gitolite, SVN, OpenLDAP, etc.
+#### Plateformes de calcul IA et traitement audio
 
-### Gestion DNS
+- Déploiement et maintenance de clusters de calcul pour des projets de recherche, de transcription et de traitement de la parole (Speech-to-Text, IA/LLM), en partenariat avec l’Université d’Avignon.
+- Mise en place d’un serveur d’apprentissage équipé de GPU NVIDIA RTX 3090 et de plusieurs serveurs de calcul.
+- Organisation du stockage partagé entre nœuds de calcul.
 
-* Objectifs : Maintenance et mise en place de zone DNS interne et externe
-* Stack technique : BIND (externe), PowerDNS (interne), Bash, Ansible.
+**Environnement :** CUDA, lsyncd, supervisord, GlusterFS.
 
-### Gestion Bases de données
+#### Messagerie, téléphonie et communication interne
 
-* Objectifs : Administrer les différentes bases de données
-* Mise en œuvre : Installer et maintenir les différentes bases de données, réplication selon les besoins, gestion des droits, etc.
-* Stack technique : PostgreSQL (+tail_n_mail), MySQL/MariaDB, SQLite et Oracle 8
+- Administration de la messagerie interne et de ses mécanismes de filtrage, de distribution et de synchronisation.
+- Supervision des éléments pouvant bloquer l’envoi de courriels aux clients ; suivi des paramètres DNS, SPF et DMARC.
+- Remplacement d’une solution de téléphonie externe par une infrastructure VoIP interne.
+- Déploiement d’outils de communication et de collaboration pour des équipes réparties géographiquement.
 
-### Backup des Windows Server
+**Environnement :** Postfix, Dovecot, LDAP, Procmail, Sieve, Fetchmail, Maildrop, ClamAV, Roundcube, imapsync, Wazo, Asterisk, ejabberd, Rocket.Chat, EtherCalc, Etherpad, OpenVPN.
 
-* Objectifs : Réinstaller rapidement les plateformes Windows Server
-* Stack technique : Clonezilla
+#### Études d’architecture et de coûts
 
-### Virtualisation des plateformes d'un partenaire
+- Étude du passage de serveurs de calcul vers un cloud public, avec comparaison des coûts sur un an par rapport à une infrastructure bare-metal.
+- Analyse des solutions de stockage distribué en fonction de la robustesse, des performances et des contraintes de retour arrière.
 
-* Objectifs : Migration des serveurs zope/plone d'un partenaire vers une solution de virtualisation
-* Stack Technique : virtualbox, netcat, rsync
+### Développeur Zope — Nevrax
+**Janvier 2006 – Janvier 2007 · Paris**
 
-### Migration Serveur windows vers VMWare ESXi
+Au sein de l’éditeur du MMORPG **Ryzom**, développement web, administration des serveurs liés aux applications et accompagnement de l’équipe de développement.
 
-* Objectifs : Migration des Serveurs Windows dans des machines virtuelles
-* Stack Technique : VMware ESXi, VMware converter
+- Développement et maintenance de sites web communautaires et d’outils internes.
+- Participation au projet **Ryzom Ring**, notamment aux outils communautaires, à la gestion des données et au débogage.
+- Administration des services web : déploiement, sauvegardes et maintenance.
+- Formation et accompagnement de développeurs : Python, HTML/CSS et gestion de versions.
+- Coordination avec les équipes marketing, QA et lore ; participation aux activités de test et de débogage du jeu.
 
-### Infrastructure du Datacenter
+**Environnement :** Python, Zope, Plone, ZEO, Squid, Apache, MySQL, CVS, Bugzilla, Bash, rsync.
 
-* Objectifs : Gestion, achat, maintenance des serveurs physiques, virtuel, et des conteneurs
-* Mise en œuvre : Serveurs applicatifs dans des conteneurs, Serveurs monolithiques pour les bases de données et l'archivage
-* Stack technique : HPE, Dell, Supermicro, Juniper, Linux (Debian), LXC, libvirt, virt-manager, virsh, vservers, KVM, VMware ESXi, Proxmox
+## Activités indépendantes et projets personnels
 
-### Infrastructure Veille Audiovisuel
+**Depuis janvier 2022 · Développement de jeux et formation continue**
 
-* Objectifs : Création et ajout des sous-titres dans le moteur de recherche pour la quasi-totalité des flux audio des chaînes TV et radio françaises.
-* Mise en œuvre : Flux permanent de fichiers audio, Accès multiples au dépôt de fichiers audio par les nœuds de calcul
-* Stack technique : vsftpd, Keepalived, GlusterFS, lsyncd, rsync
+- Formation continue sur Ansible, Docker, CI/CD, Kubernetes et les pratiques DevOps.
+- Prototypage de jeux vidéo avec **Godot** et **Unity**, avec publications sur [Itch.io](https://patrx.itch.io/).
+- Participation à des game jams et à des initiatives caritatives autour du jeu vidéo.
+- Déploiement et expérimentation d’infrastructures personnelles (homelab), incluant clusters Proxmox, NAS et réseau avec commutation L3.
+- Développement d’outils de détection de bots sur **Bluesky**, dans une démarche de lutte contre la désinformation.
+- Développement de scripts d’archivage de contenus publics dans un contexte de collecte de preuves de harcèlement en ligne.
+- Veille technologique sur l’open source, la cybersécurité et l’intelligence artificielle.
 
-### Cluster de calcul Speech2text LLM/IA en partenariat avec l’université d’Aix
+## Compétences techniques
 
-* Objectifs : Installation de l'IA de recherche, d'apprentissage et de calcul
-* Mise en œuvre : un serveur d'apprentissage à base de 3090, multiples serveurs de calculs
-* Stack technique : CUDA, lsyncd, supervisord, glusterfs
+| Domaine | Technologies et outils |
+| --- | --- |
+| Systèmes d’exploitation | Linux, Debian, RHEL |
+| Automatisation & IaC | Ansible, Bash, Python |
+| CI/CD & gestion de versions | Jenkins, Git, GitLab, Gitolite, SVN, CVS |
+| Virtualisation & conteneurs | Proxmox, VMware vSphere/ESXi, KVM, libvirt, LXC, Docker |
+| Stockage & sauvegardes | GlusterFS, MinIO, Ceph, rsync, lsyncd, backupninja, RAID, ZFS |
+| Réseau & haute disponibilité | pfSense, OPNsense, Juniper, DNS, DHCP, VPN, HAProxy, Keepalived |
+| Web & reverse proxy | Nginx, Apache, PHP-FPM, Lighttpd, Gunicorn, Squid |
+| Bases de données & cache | PostgreSQL, MySQL, MariaDB, SQLite, Oracle, Redis, Memcached, CouchDB |
+| Observabilité | Zabbix, Hobbit/Xymon, Smokeping, ELK, Filebeat |
+| Sécurité & identité | Keycloak, OpenSSL, Let's Encrypt, fail2ban, unattended-upgrades, LDAP |
+| Messagerie & VoIP | Postfix, Dovecot, Zimbra, Wazo, Asterisk |
+| Files & messagerie applicative | Kafka, RabbitMQ |
+| Développement | Bash, Python, C#, SQL |
+| Game development | Godot, Unity |
+| Outils et collaboration | Redmine, Request Tracker, GLPI, Racktables, Rocket.Chat |
 
-### Infrastructures des sauvegardes des documents de presse
+*Cette liste regroupe les technologies citées dans le CV et le dossier de compétences existant ; elle ne constitue pas une certification de niveau pour chaque outil.*
 
-* Objectifs : Archivage froid (pas/peu d'accès) pour le retraitement éventuel de l'historique des documents
-* Mise en œuvre : Archive tar.gz historiquement au format CD (600-700 Mo), Serveur avec de multiples extensions de RAID pour ajouter des extensions de stockage de disques, Dupliquer sur chaque datacenter
-* Stack technique : Bash, rsync, lsyncd, backupninja, etc.
+## Formation
 
-### Maintien en condition de sécurité
+- **Master Sciences et Technologies — Ingénierie des systèmes, réseaux et applications distribués**, Université de Picardie Jules Verne — 2005–2006.
+- **Maîtrise Informatique**, Université de Picardie Jules Verne — 2004–2005.
+- **Licence Informatique — Intelligence artificielle**, Université de Picardie Jules Verne — 2003–2004.
+- **DEUG MIAS — Mathématiques et informatique appliquées aux sciences**, Université de Picardie Jules Verne — 2001–2003.
 
-* Objectifs : Veille sécurité
-* Mise en œuvre : Mise en place d'une politique d'upgrade régulière, Surveillance des logs, Blocage préemptif, HTTPS interne/externe, SSO, Éducation des utilisateurs
-* Stack technique : unattended-upgrades, Let's Encrypt, pfSense, fail2ban, Zabbix, Keycloak, OpenSSL
+## Langues
 
-### Maintien en condition opérationnelle
+- Français
+- Anglais
 
-* Mise en œuvre : Monitoring, Redondance matérielle et applicative, Inventorier les ressources matérielles disponibles
-* Stack technique : Bash, Zabbix, Hobbit/Xymon, HAProxy, Keepalived, RAID, ZFS, GLPI, Racktables, FusionInventory, etc.
+*Le CV source ne précise pas de niveau de maîtrise pour ces langues.*
 
-### Observabilité - Monitoring
+## Centres d’intérêt
 
-* Objectifs : Remonter d'informations matérielles et applicatives
-* Mise en œuvre : Centralisation, Visualisation de logs, Script pour monitorer le hardware, Script pour monitorer les bases de données
-* Stack technique : Hobbit/Xymon, Smokeping, Zabbix, ELK (Elasticsearch, Logstash, Kibana), filebeat, bash, python
+- Développement de jeux vidéo et game jams.
+- Préservation vidéoludique.
+- Jeux de cartes à collectionner, jeux de rôle et jeux de plateau.
+- Arbitre **Magic: The Gathering** pendant 10 ans ; joueur depuis environ 30 ans.
+- Cybersécurité.
+- Arts martiaux : Kobudo et Goju-ryu.
+- Lutte contre la désinformation et veille open source.
 
-### Gestion de la téléphonie VoIP
+---
 
-* Objectifs : Remplacement de la solution externe par notre propre infra VoIP
-* Mise en œuvre : Installation de Wazo, Configuration automatique des téléphones, Attribution des numéros pour chaque utilisateur, Gestion des groupes
-* Stack technique : Wazo, Asterisk
-
-### Migration dev/preprod sur un cloud privé (proxmox)
-
-* Objectifs : Uniformisation de l'infra, Passage à proxmox des serveurs de dev/preprod, migration des VM KVM et ESXi.
-* Mise en œuvre : scripts de migrations
-* Stack technique : Proxmox, Bash
-
-### Migration Serveur windows vers proxmox
-
-* Objectifs : Migration des Serveurs Windows VMWare ESXi vers proxmox
-* Stack Technique : VMware ESXi, proxmox
-
-### Gestion Mail client
-
-* Objectifs : Fluidifier l'envoie de mail vers les clients.
-* Mise en œuvre : Supervision des éléments bloquants.
-* Stack technique : Zabbix, dns, dmarc, spf, postfix
-
-### Gestion Mail Interne
-
-* Objectifs : Gestion des mails internes des collaborateurs, lancement de scripts sur événement, spam
-* Stack technique : postfix, dovecot, ldap, procmail, sieve, fetchmail, maildrop, clamav, roundcube, imapsync
-
-### Gestion FTP réception Presse
-
-* Objectifs : Recevoir les flux presse en continue.
-* Mise en œuvre : Multiples serveurs FTP, script de gestion des fournitures selon chaque type de réceptions
-* Stack technique : keepalived, vsftpd, scripting
-
-### Outils de communications
-
-* Objectifs : Mise en place d'outils de communications internes, les équipes étant réparties aux quatres coins de la France.
-* Stack technique : ejabberd, Rocket.Chat, EtherCalc, Etherpad, Haste, Plik, OpenVPN
-
-### Migration SVN/CVS vers Git
-
-* Objectifs : remplacement des anciens sccm par Git
-* Stack Technique : Git, Gitolite, git-svn, git-cvsimport
-
-### Serveurs Webs
-
-* Objectifs : Avoir une Stack web redondé, chiffré
-* Mise en œuvre : Internet => FW => rproxy(nginx+letsencrypt) => haproxy => node webs ; chaque rproxy/haproxy x2 avec keepalived.
-* Stack Technique : haproxy, keepalived, let's encrypt, nginx, apache, php-fpm
-
-### Déploiement d'outils divers
-
-* Objectifs : Gestion et déploiements d'outils utilisée par nos applications
-* Stack technique :
-  * Serveur web : Lighttpd, Gunicorn
-  * Stockage d'objets : Memcached, Redis, Minio, CouchDB
-  * Message broker/queuing : Kafka, RabbitMQ
-
-### Étude de stockage distribué
-
-* Objectifs : Permettre un flux de réception continu même en cas de panne d'un datacenter, Permettre à de multiples clients d'accéder au stockage.
-* Technologie évalué : GlusterFS, Ceph, Minio (S3)
-* Résultat : Les solutions testées sont toutes robustes avec des performances similaires pour notre usage. Nous avons choisi GlusterFS pour des raisons de simplicité des retours arrière. GlusterFS s'ajoutant à un système de fichiers déjà existant, il suffit de le désactiver en cas de problème.
-
-### Etude de passage en cloud public
-
-* Objectifs : Pour le projet de veille audiovisuel, il a été envisagé d'exporter les serveurs de calculs sur un cloud public.
-* Mise en œuvre : Benchmark le cloud public, Comparaison des coûts versus nos solutions traditionnelles bare-metal.
-* Résultats : Sur un an, le cloud revient au même prix que l'achat physique des serveurs, or les serveurs physiques dure bien plus d'un an.
-
---------------------------------------------------------------------------------
-
-## Nevrax - Développeur Zope - 2006/01 à 2007/01
-
-Nevrax était éditeur/développeur du MMORPG Ryzom. En charge de la création des sites, de la gestion des serveurs web communautaires, de la gestion et de la formation de l'équipe de développeurs Python/Zope et de la création des outils en lien avec les équipes marketing, QA et lore du jeu Ryzom.
-
-### Ryzom Ring
-
-Le Ryzom Ring était un projet d'extension pour permettre aux game designers, puis aux joueurs, d'éditer de nouvelles zones pour le MMO Saga Of Ryzom. Malgré une alpha concluante, le projet n'a jamais été déployé une fois Nevrax racheté.
-
-* Objectifs :
-  * Création du site mettant en lien les créations des joueurs sur le Ryzom Ring et les plateformes externes.
-  * Gestion d'équipe de joueurs (MJ, invitations, etc.)
-  * Débogage du Ryzom Ring
-* Stack technique : Python, Zope, Plone, ZEO, Squid, Apache, MySQL, Torrent, CVS, Bugzilla, etc.
-
-### Création du site communautaire
-
-* Objectifs : Utilisation du nouveau moteur web du Ryzom Ring pour refaire le site communautaire
-* Mise en œuvre :
-  * Création d'un nouveau site communautaire
-  * Création d'outils pour le staff interne
-  * Migration de données
-  * Téléchargement de clients lourds
-  * Optimisation de la charge
-* Stack technique : Python, Zope, Plone, ZEO, Squid, Apache, MySQL, Torrent, CVS, Bugzilla, etc.
-
-### Management de l'équipe de développement web
-
-* Objectifs :
-  * Formation en Python, HTML, CSS
-  * Formation à la gestion de version
-  * Distribution des tâches
-  * Relecture du code
-* Stack technique : Python, Zope, Plone, MySQL, CVS, Bugzilla, etc.
-
-### Gestion des campagnes publicitaires
-
-* Objectifs :
-  * Vérifier l'origine de l'accès depuis la publicité
-  * Optimiser la distribution du streaming vidéo publicitaire
-* Stack technique : Zope, Python, Pound, PHP, etc.
-
-### Administration de l'infrastructure Web
-
-* Objectifs : Gestion des serveurs web communautaires
-* Mise en œuvre : MCO, MCS, backup, déploiement
-* Stack technique : Bash, Apache, Squid, SSH, rsync
-
-### Game Dev
-
-* Objectifs : Participation à la conception de nouveaux éléments du jeu Saga of Ryzom
-* Mise en œuvre : Création de boss pour le jeu Saga of Ryzom, Test QA du client du jeu, Test de charge, Debug
-* Stack technique : Brainstorming
+*Document mis à jour à partir du CV fourni (15 octobre 2026) et du dossier de compétences GitHub existant. Les missions détaillées historiques sont conservées lorsqu’elles apportent du contexte technique ; les informations récentes du CV sont intégrées en tête de parcours.*
