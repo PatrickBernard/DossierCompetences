@@ -148,7 +148,7 @@ Au sein de l’éditeur du MMORPG **Ryzom**, développement web, administration 
 - Formation continue sur Ansible, Docker, CI/CD, Kubernetes et les pratiques DevOps.
 - Prototypage de jeux vidéo avec **Godot** et **Unity**, avec publications sur [Itch.io](https://patrx.itch.io/).
 - Participation à des game jams et à des initiatives caritatives autour du jeu vidéo.
-- Déploiement et expérimentation d’infrastructures personnelles (homelab), incluant clusters Proxmox, NAS et réseau avec commutation L3.
+- Déploiement et expérimentation d’infrastructures personnelles (homelab), incluant clusters Proxmox, NAS et réseau.
 - Développement d’outils de détection de bots sur **Bluesky**, dans une démarche de lutte contre la désinformation.
 - Développement de scripts d’archivage de contenus publics dans un contexte de collecte de preuves de harcèlement en ligne.
 - Veille technologique sur l’open source, la cybersécurité et l’intelligence artificielle.
