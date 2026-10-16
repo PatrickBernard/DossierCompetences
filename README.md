@@ -144,17 +144,25 @@ Au sein de l’éditeur du MMORPG **Ryzom**, développement web, administration 
 
 **Environnement :** Python, Zope, Plone, ZEO, Squid, Apache, MySQL, CVS, Bugzilla, Bash, rsync.
 
-## Activités indépendantes et projets personnels
+## Porjets personnels & Formation Continue
 
-**Depuis janvier 2022 · Développement de jeux et formation continue**
+*Janvier 2022 – Aujourd’hui*
 
-- Formation continue sur Ansible, Docker, CI/CD, Kubernetes et les pratiques DevOps.
-- Prototypage de jeux vidéo avec **Godot** et **Unity**, avec publications sur [Itch.io](https://patrx.itch.io/).
-- Participation à des game jams et à des initiatives caritatives autour du jeu vidéo.
-- Déploiement et expérimentation d’infrastructures personnelles (homelab), incluant clusters Proxmox, NAS et réseau.
-- Développement d’outils de détection de bots sur **Bluesky**, dans une démarche de lutte contre la désinformation.
-- Développement de scripts d’archivage de contenus publics dans un contexte de collecte de preuves de harcèlement en ligne.
-- Veille technologique sur l’open source, la cybersécurité et l’intelligence artificielle.
+Cette période est consacrée au développement de projets personnels, à l’expérimentation de technologies et à l’approfondissement de mes compétences en développement logiciel et en infrastructure.
+
+**Infrastructure & DevOps**
+- Mise en œuvre et expérimentation de solutions d’infrastructure pour des projets personnels.
+- Approfondissement des pratiques et outils DevOps : conteneurisation, automatisation et déploiement.
+- Veille technologique autour de Linux, de la cybersécurité et des technologies d’IA.
+
+**Développement logiciel & jeu vidéo**
+- Développement de prototypes et de projets de jeux vidéo avec Godot et Unity avec publications sur [Itch.io](https://patrx.itch.io/).
+- Exploration des pratiques de développement, de conception et d’outillage associées au jeu vidéo.
+
+**Projets et expérimentations**
+- Expérimentation de méthodes de détection de bots sur Bluesky.
+- Exploration de projets open source et de solutions techniques émergentes.
+
 
 ## Compétences techniques
 
