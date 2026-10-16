@@ -27,16 +27,19 @@ Attaché aux technologies open source, à l’expérimentation et à la veille c
 ### Administrateur système et cloud — Ediser
 **Juin 2025 – Décembre 2025 · Montpellier**
 
-- Maintien en condition opérationnelle et de sécurité (MCO/MCS) de l’infrastructure.
-- Migration et déploiement d’une solution SSO/IAM basée sur **Keycloak**.
-- Activités de R&D.
+- Exploitation et maintien en conditions opérationnelles et de sécurité d'une infrastructure virtualisée sous Linux.
+- Déploiement, configuration et supervision d'une solution d'authentification centralisée Keycloak, destinée aux moniteurs et apprenants des auto-écoles, avec une architecture redondée sous Docker.
+- Mise en place de la supervision de l'infrastructure avec Zabbix et de la protection des systèmes avec CrowdSec.
+- Automatisation des déploiements avec Ansible : expérimentation et tentative d'intégration aux pratiques des équipes de développement.
 
 ### Ingénieur Linux — OC3 Network
 **Mars 2024 – Mai 2024 · Montpellier**
 
-- Maintien en condition opérationnelle et de sécurité de l’infrastructure.
-- Exploitation d’environnements **VMware vSphere**.
-- Administration de serveurs de messagerie **Zimbra**.
+- Maintien en condition opérationnelle et de sécurité de l’infrastructure sous **VMware vSphere**.
+- Exploitation et dépannage d'environnements Linux et des services associés clients.
+- Intervention sur la supervision Zabbix et les services de messagerie **Zimbra**.
+- Étude d'une évolution de la plateforme de virtualisation VMware vSphere vers Proxmox, dans un contexte de maîtrise des coûts d'infrastructure.
+
 
 ### Formateur — SJT Formation
 **Septembre 2023 – Octobre 2023 · Compiègne**
