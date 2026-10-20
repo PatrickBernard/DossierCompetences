@@ -1,6 +1,6 @@
 # Patrick Bernard — Ingénieur Linux, Infrastructure & Reliability
 
-**Infrastructure · SRE · DevOps · Linux · Automatisation · Virtualisation**
+**Infrastructure · SysOps · DevOps · Linux · Automatisation · Virtualisation**
 
 [GitHub](https://github.com/PatrickBernard) · [LinkedIn](https://www.linkedin.com/in/pb42/) · [Itch.io](https://patrx.itch.io/) · [Contact](mailto:bernardpatrickgerard@yahoo.fr)
 
